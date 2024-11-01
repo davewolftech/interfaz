@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Ventas</title>
+    
+    <style>
+     
+    </style>
+</head>
+<body>
+
+    <div class="main-content">
+        <!-- Barra lateral izquierda -->
+        <div class="sidebar sidebar-left">
+           <!-- <p class="advertising-text">COMPRA HOY</p> --> 
+        </div> 
+
+        <div class="container"> <!--SE AGREGÓ EL LOGO -->
+            <!-- Encabezado -->
+            <div class="header">
+                <img src="result.png" alt="Logo de Nicky Fashion" class="logo">  <!--falta agg logo -->
+                <h1>NICKY FASHION</h1>
+                <p>Bienvenido a nuestra tienda. </p>
+            </div>
+            
+
+            <!-- Lista de productos -->
+            <div class="product-list">
+                <h2 class="section-title">Productos</h2>
+
+                <div class="product-category">
+                    <h2 class="category-title">Camisas</h2>
+                    <div class="product-row">
+                        <div class="product-item">
+                            <img src="camisa1.png" alt="Camisa Oxford" class="camisa1">
+                            <p class="product-title">Camisa Oxford</p>
+                            <p class="product-price">$10.000</p>
+                            <button class="add-cart-btn">Añadir al Carrito</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="polo.png" alt="Camisa Polo" class="polo">
+                            <p class="product-title">Camisa Polo</p>
+                            <p class="product-price">$10.000</p>
+                            <button class="add-cart-btn">Añadir al Carrito</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="Aloha.png" alt="Camisa Aloha" class="Aloha">
+                            <p class="product-title">Camisa Aloha</p>
+                            <p class="product-price">$10.000</p>
+                            <button class="add-cart-btn">Añadir al Carrito</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="blusa.png" alt="Camisa Blusa" class="blusa">
+                            <p class="product-title">Camisa Blusa</p>
+                            <p class="product-price">$10.000</p>
+                            <button class="add-cart-btn">Añadir al Carrito</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="chambray.png" alt="Camisa de Chambray" class="chambray">
+                            <p class="product-title">Camisa de Chambray</p>
+                            <p class="product-price">$10.000</p>
+                            <button class="add-cart-btn">Añadir al Carrito</button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="product-category">
+                    <h2 class="category-title">Pantalones</h2>
+                    <div class="product-row">
+                        <div class="product-item">
+                            <img src="vaqueros.png" alt="Vaqueros" class="vaqueros" >
+                            <p class="product-title">Vaqueros</p>
+                            <p class="product-price">$90.000</p>
+                            <button class="add-cart-btn">Añadir al Carrito</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="jean.png" alt="Jean" class="jean">
+                            <p class="product-title">Jean</p>
+                            <p class="product-price">$90.000</p>
+                            <button class="add-cart-btn">Añadir al Carrito</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="cargos.png" alt="Cargos" class="cargos">
+                            <p class="product-title">Cargos</p>
+                            <p class="product-price">$90.000</p>
+                            <button class="add-cart-btn">Añadir al Carrito</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="skinny.png" alt="Jeans Skinny" class="skinny">
+                            <p class="product-title">Jeans skinny</p>
+                            <p class="product-price">$90.000</p>
+                            <button class="add-cart-btn">Añadir al Carrito</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="oversize.png" alt="Pantalones Oversize" class="oversize">
+                            <p class="product-title">Pantalones oversize</p>
+                            <p class="product-price">$90.000</p>
+                            <button class="add-cart-btn">Añadir al Carrito</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Carrito de compras -->
+                <div class="cart">
+                    <h2>Carrito de Compras</h2>
+                    <div class="cart-item">
+                        <p>Camisas - $10.000</p>
+                    </div>
+                    <div class="cart-item">
+                        <p>Pantalones - $90.000</p>
+                    </div>
+                    <hr>
+                    <p><strong>Total:</strong> $100.000</p>
+                    <button>Finalizar Compra</button>
+                </div>
+            </div>
+            <!-- Formulario de contacto -->
+            <div class="container">
+                <div class="contact-form">
+                    <h2>Contacto</h2>
+                    <form action="#">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+
+         
+        
+
+        <!-- Barra lateral derecha -->
+        <div class="sidebar sidebar-right">
+          <!--<p class="advertising-text">COMPRA HOY</p> --> 
+        </div>
+    </div>
+
+  
+
+
+</body>
+</html>
