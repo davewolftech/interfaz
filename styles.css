@@ -1,0 +1,231 @@
+   /* Estilos generales */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 150px;
+    height: 100vh; /* Asegura que la barra lateral cubra toda la altura de la pantalla */
+    background-color: #e0d7ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #4a148c;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('https://i.pinimg.com/736x/90/c5/11/90c511ea25fe7e61dedc86fac3efc3ff.jpg'); /* Imagen cargada */
+    background-size: cover; /* Hace que la imagen cubra toda la barra */
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.85; /* Ajusta la opacidad para que no opaque el texto */
+}
+
+
+.sidebar-left {
+    margin-right: 10px;
+}
+
+.sidebar-right {
+    margin-left: 10px;
+}
+
+.advertising-text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: #4a148c;
+    font-weight: bold;
+}
+
+/* Contenido principal */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para el encabezado */
+.header {
+    /*background-image: url('');  Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+    width: 500px;
+    height: 100px;
+}
+
+/* Estilo para el logo */
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 0;
+    margin-right: 10px;
+}
+
+/* Estilo imagenes productos */
+
+.camisa1
+{
+    width: 100px;
+}
+.polo
+{
+    width: 100px;
+}
+
+.Aloha
+{
+    width: 100px;
+}
+.blusa
+{
+    width: 100px;
+}
+.chambray
+{
+    width: 100px;
+}
+
+.vaqueros
+{
+    width: 100px;
+}
+.cargos
+{
+    width: 150px;
+}
+.jean
+{
+    width: 100px;
+}
+
+.skinny
+{
+    width: 100px;
+}
+.oversize
+{
+    width: 100px;
+}
+
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.header p {
+    font-size: 1.1rem;
+}
+
+/* Lista de productos */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product-category {
+    width: 100%;
+}
+
+.category-title {
+    font-size: 1.5rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.product-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 calc(50% - 20px);
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.product-title {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    color: #b12704;
+    font-weight: bold;
+}
+/* Estilos para el carrito de compras */
+.cart {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+
+.add-cart-btn {
+    background-color: #4a148c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.add-cart-btn:hover {
+    background-color: #6a1b9a;
+}
